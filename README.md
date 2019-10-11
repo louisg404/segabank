@@ -15,3 +15,7 @@ Un compte simple est un compte qui possède un découvert. Ce qui signifie que c
 Un compte Epargne est un compte bancaire qui possède en plus un champ « tauxInteret » et une méthode « calculIntérêt() » qui permet de mettre à jour le solde en tenant compte des intérêts.
 Un Compte payant est un compte bancaire pour lequel chaque opération de retrait et de versement est payante et vaut 5 % du montant de l'opération.
 Chaque compte est administré par une et une seule agence. Les agences sont définies par id, un code et une adresse.
+
+#### Diagramme de classe
+
+![uml](https://image.noelshack.com/fichiers/2019/41/5/1570802093-capture.png)
