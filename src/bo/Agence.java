@@ -9,11 +9,10 @@ public class Agence {
     private String adresse;
     private List<Compte> comptes;
 
-    public Agence(int id, int code, String adresse, List<Compte> comptes) {
-        this.id = id;
+    public Agence(int code, String adresse) {
+
         this.code = code;
         this.adresse = adresse;
-        this.comptes = comptes;
     }
 
     public int getId() {
@@ -49,12 +48,9 @@ public class Agence {
     }
 
     @Override
-    public String toString() {
-        return "agence{" +
-                "id=" + id +
-                ", code=" + code +
-                ", adresse='" + adresse + '\'' +
-                ", comptes=" + comptes +
-                '}';
+    public String toString(){
+        StringBuilder bd = new StringBuilder();
+        bd.append(this.id).append(" ").append(this.code).append(" ").append(this.adresse);
+        return bd.toString();
     }
 }

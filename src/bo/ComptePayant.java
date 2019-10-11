@@ -2,18 +2,28 @@ package bo;
 
 public class ComptePayant extends Compte {
 
-    private double interet;
+    private static double tauxOperation = 5;
+    private int compteId;
 
-    public ComptePayant(int id, double solde, Agence agence, double interet) {
-        super(id, solde, agence);
-        this.interet = interet;
+    public ComptePayant(double solde, int compteId) {
+
+        super(solde);
+        this.compteId = compteId;
     }
 
-    public double getInteret() {
-        return interet;
+    public static double getTauxOperation() {
+        return tauxOperation;
     }
 
-    public void setInteret(double interet) {
-        this.interet = interet;
+    public int getCompteId() {
+        return compteId;
+    }
+
+    public void setCompteId(int compteId) {
+        this.compteId = compteId;
+    }
+
+    public void setTauxOperation(double tauxOperation) {
+        this.tauxOperation = tauxOperation;
     }
 }

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7cceb9-5663-49d5-a400-e882aff4d838" name="Default Changelist" comment="" />
+    <list default="true" id="0e7cceb9-5663-49d5-a400-e882aff4d838" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segabank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/segabank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/Agence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/Agence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/CompteEpargne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/CompteEpargne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/ComptePayant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/ComptePayant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/CompteSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/CompteSimple.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,16 +23,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
   <component name="ProjectId" id="1RvNGMyZXpzx6boDH2bMvyUxnRf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SegaBank-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-1/jee-demo1" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dal" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,6 +61,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="segabank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -48,11 +85,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570543512657</updated>
-      <workItem from="1570543516715" duration="1871000" />
+      <workItem from="1570543516715" duration="2981000" />
+      <workItem from="1570687697521" duration="12431000" />
+      <workItem from="1570705523967" duration="5044000" />
+      <workItem from="1570773527437" duration="10732000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
