@@ -4,12 +4,10 @@ public class Compte {
 
     private int id;
     private double solde;
-    private Agence agence;
+    private int agence;
 
-    public Compte(int id, double solde, Agence agence) {
-        this.id = id;
+    public Compte(double solde) {
         this.solde = solde;
-        this.agence = agence;
     }
 
     public int getId() {
@@ -28,11 +26,11 @@ public class Compte {
         this.solde = solde;
     }
 
-    public Agence getAgence() {
+    public int getAgence() {
         return agence;
     }
 
-    public void setAgence(Agence agence) {
+    public void setAgence(int agence) {
         this.agence = agence;
     }
 
@@ -43,5 +41,19 @@ public class Compte {
                 ", solde=" + solde +
                 ", agence=" + agence +
                 '}';
+    }
+
+    public double retrait(double montant) {
+
+        if(this.getSolde() - montant > 0){
+            this.setSolde(this.solde - montant);
+        }
+        return this.getSolde();
+    }
+
+    public double versement(double montant){
+
+        this.setSolde(this.solde + montant);
+        return this.getSolde();
     }
 }

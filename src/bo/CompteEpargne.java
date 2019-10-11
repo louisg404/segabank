@@ -2,18 +2,29 @@ package bo;
 
 public class CompteEpargne extends Compte {
 
-    private double taux;
+    private double tauxInteret;
+    private int compteId;
 
-    public CompteEpargne(int id, double solde, Agence agence, double taux) {
-        super(id, solde, agence);
-        this.taux = taux;
+    public CompteEpargne(double solde, float tauxInteret, int compteId) {
+
+        super(solde);
+        this.compteId = compteId;
+        this.tauxInteret = tauxInteret;
     }
 
-    public double getTaux() {
-        return taux;
+    public double getTauxInteret() {
+        return tauxInteret;
     }
 
-    public void setTaux(double taux) {
-        this.taux = taux;
+    public int getCompteId() {
+        return compteId;
+    }
+
+    public void setCompteId(int compteId) {
+        this.compteId = compteId;
+    }
+
+    public void setTauxInteret(double tauxInteret) {
+        this.tauxInteret = tauxInteret;
     }
 }
